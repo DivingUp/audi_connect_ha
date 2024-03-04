@@ -465,6 +465,12 @@ def create_instruments():
             icon="mdi:car-info",
             unit=None,
         ),
+         Sensor(
+            attr="hybrid_range",
+            name="hybrid Range",
+            icon="mdi:gas-station-outline",
+            unit="km",
+        ),
         Sensor(
             attr="secondary_engine_range_percent",
             name="Secondary engine Percent",
